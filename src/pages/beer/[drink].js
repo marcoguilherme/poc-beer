@@ -22,7 +22,8 @@ export const getStaticProps = async(context) => {
     return {
         props: {
             pageContent: response[0],
-        }
+        },
+        revalidate: 20
     }
 }
 
