@@ -20,7 +20,7 @@ const Header = () => {
                 <ul>
                     {beers.data.map((item) => {
                         return (<li key={item.path.trim()}>
-                            <Link href={`/beer${item.path}`}>{item.path}</Link>
+                            <Link href={`/github${item.path}`}>{item.path}</Link>
                         </li>)
                     })}
                     
